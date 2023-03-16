@@ -78,9 +78,9 @@ class LiveStreamingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: ZegoUIKitPrebuiltLiveStreaming(
-        appID: 566635981,
+        appID: "YOUR APP ID",
         appSign:
-            "c99c0e3146ddcc9306497e729f08b9fec475f1e111e641d723b2fa83546bf7fa",
+            "YOUR APP SIGN",
         userID: user,
         userName: user,
         liveID: "liveID",
